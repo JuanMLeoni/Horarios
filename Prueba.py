@@ -1,2 +1,3 @@
 a = input("Quien sos?")
-print("Hola " + a)
+
+print("Hola " + a.title())
