@@ -13,14 +13,11 @@ celda = hoja2["A2"]
 valor = celda.value
 cerrar = 0
 print("Usted tiene registradas: " ) 
-print(valor)
+print(valor )
 
-
-
-a = "."
 b = input("Ponga un punto para sumar 4h  ")
 while b == ".":
-    if a == b:
+    if "." == b:
        valor += 4
     b = input("Ponga un punto para sumar 4h  ")
 
@@ -37,8 +34,6 @@ print("")
 while cerrar == 0:
     print("----------------------------")
     cerrar = input("Presione enter para cerrar | \n----------------------------")
-
-
    
 
  
